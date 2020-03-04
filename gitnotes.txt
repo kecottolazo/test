@@ -1,0 +1,136 @@
+git add a.txt
+git diff
+git diff —staged
+git commit -m “Added capilzation”
+git status
+git add .
+git commit -m “Wrote code”
+nano .gitignore // files you don’t want
+
+
+(.gitingore)
+a.out //a.exe
+.idea/
+*.htaccess
+
+gcc sample.c
+git add .
+
+git reset <c_ID>//changes the files but doesn’t revert the files
+git status //changes are still there
+
+git add .gitignore
+
+git reset <c_ID> [—hard] // removes the commits the —hard
+
+git reset a29349235jfj392234889sd9 —-hard
+
+git status
+
+nano sample.c
+git branch —-list
+
+(prod, testing, development, sprint N - task, task, task)
+
+git branch some-branch //creates a branch
+git branch —-list
+git status
+git checkout some-branch //changes to that branch
+git status
+
+nano a.txt
+
+git checkout master
+nano sample.c
+
+git checkout master //from some branch into master
+git merge some-branch //may or may not create a commit, if it does you will have to create a message
+
+syntax
+git merge <branch_name> [-m “message”]
+
+git status
+nano sample.h
+git add .
+git commit -m “Made a cool comment”
+
+
+git checkout some-branch
+nano sample.h
+git merge master //fast-forward
+
+(merge conflicts can happen)
+
+GitHub.com is a distributive repository.
+
+——————————————————————
+in Github.com (how to use git repository)
+———————————— 
+- create a new repository
+- clone HTTPS (green button)
+
+back in terminal
+
+git remote add origin https://github.com/Namehere/repositoryname.git //you have to be in an repository
+
+syntax
+git remote add <name> <url>
+
+
+git push origin master
+git pull origin master
+
+syntax
+git pull <remote> <branch>
+git push <remote> <branch>
+
+git pull origin [—-allow—unrelated—histories
+
+git checkout some-branch
+git push origin some-branch
+checkout master
+
+(commit early and often)
+—————————
+1. Pull from remote
+2. Fix merge conflicts (before you start thing)
+3. Do your work (includes conflicts)(don’t forget to commit and push [uploading to GitHub])
+4. Pull again
+5. Fix merge conflicts
+6. Push to remote 
+
+(don’t leave your code un-pushed)
+be in charge of your own git repository
+
+
+created a repository and uploaded it to github
+——————————
+
+now we are doing existing git repository
+git clone http:// ….
+
+git log
+
+git branch —-list // only have master
+
+git fetch —-all
+git branch —-list
+git status
+git checkout some-branch
+git status
+git checkout master
+
+syntax
+git clone <url> //creating repositories on your computer.
+
+git education pack (gitkraken.com) since we have our csuci emails
+
+can clone on gitkraken
+
+gitkraken (UI for git)
+
+OR gitHub Desktop
+
+————————————
+
+http://guides.tinycountrygames.com/git/basics
