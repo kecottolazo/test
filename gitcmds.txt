@@ -1,0 +1,9 @@
+users-MacBook-Air:Gwent Kevin$ git status
+On branch Kevin2.0
+Your branch is up to date with 'origin/Kevin2.0'.
+
+nothing to commit, working tree clean
+users-MacBook-Air:Gwent Kevin$ git add .
+users-MacBook-Air:Gwent Kevin$ git commit -m “ message “
+
+git push
